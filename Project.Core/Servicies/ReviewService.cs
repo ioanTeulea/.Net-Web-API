@@ -3,6 +3,8 @@ using Project.Database.Entities;
 using Project.Database.Repositories;
 using System.Collections.Generic;
 using Project.Core.Mapping;
+using Project.Database.Dtos.Response;
+using Project.Database.QueryExtensions;
 
 namespace Project.Core.Services
 {
@@ -15,9 +17,15 @@ namespace Project.Core.Services
             _reviewRepository = reviewRepository;
         }
 
-        public IEnumerable<Review> GetReviewsByProdusId(int produsId)
+        public GetReviewsResponse GetReviewsByProdusId(int produsId)
         {
-            return _reviewRepository.GetReviewsByProdusId(produsId);
+            var reviews = _reviewRepository.GetReviewsByProdusId(produsId);
+
+            var response = new GetReviewsResponse();
+            response.Reviews = reviews.ToReviewDtos();
+            response.Count = reviews.Count();
+
+            return response;
         }
 
         public void AddReview(AddReviewRequest request)
@@ -25,17 +33,16 @@ namespace Project.Core.Services
             var review = request.ToEntity();
             _reviewRepository.AddReview(review);
         }
-        public void UpdateReview(UpdateReviewRequest request)
+        public void UpdateReview(int id,UpdateReviewRequest request)
         {
-            var existingReview = _reviewRepository.GetReviewById(request.Id);
+            var existingReview = _reviewRepository.GetReviewById(id);
             if (existingReview == null)
             {
                 // Handle the error or throw an exception
                 return;
             }
 
-            var updatedReview = ReviewRepository.ToEntity(request);
-            _reviewRepository.UpdateReview(updatedReview);
+            _reviewRepository.UpdateReview(existingReview, request);
         }
 
         public void DeleteReview(DeleteReviewRequest request)

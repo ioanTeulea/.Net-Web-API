@@ -3,6 +3,8 @@ using Project.Database.Entities;
 using Project.Database.Repositories;
 using System.Collections.Generic;
 using Project.Core.Mapping;
+using Project.Database.Dtos.Response;
+using Project.Database.QueryExtensions;
 
 namespace Project.Core.Services
 {
@@ -15,14 +17,21 @@ namespace Project.Core.Services
             _produsRepository = produsRepository;
         }
 
-        public IEnumerable<Produs> GetAllProduse()
+        public GetProduseResponse GetAllProduse(GetProduseRequest payload)
         {
-            return _produsRepository.GetAllProduse();
+            var produse= _produsRepository.GetAllProduse(payload);
+          
+            var result = new GetProduseResponse();
+            result.Produse = produse.ToProdusDtos();
+            result.Count = _produsRepository.CountProduse(payload);
+            return result;
         }
 
-        public Produs GetProdusById(int id)
+        public GetProdusResponse GetProdusById(int id)
         {
-            return _produsRepository.GetProdusById(id);
+            var produs=_produsRepository.GetProdusById(id);
+            var result = produs.ToGetProdusResponse();
+            return result;
         }
         public Produs AddProdus(AddProdusRequest request)
         {

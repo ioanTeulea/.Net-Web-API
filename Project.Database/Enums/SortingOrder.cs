@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.Database.Dtos.Request
+namespace Project.Database.Enums
 {
-    public class GetReviewRequest
+    public enum SortingOrder
     {
-        public int ProdusId { get; set; }
+        Ascending = 1,
+        Descending = 2,
+        None = 3
     }
 }

@@ -2,6 +2,7 @@
 using Project.Database.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using Project.Database.Dtos.Request;
 
 namespace LabProject.Api.Controllers
 {
@@ -16,17 +17,19 @@ namespace LabProject.Api.Controllers
             _produsService = produsService;
         }
 
-        [HttpGet]
-        public ActionResult<IEnumerable<Produs>> GetAllProduse()
+        [HttpPost]
+        [Route("get-products")]
+        public IActionResult GetAllProduse([FromBody] GetProduseRequest payload )
         {
-            var produse = _produsService.GetAllProduse();
+            var produse = _produsService.GetAllProduse(payload);
             return Ok(produse);
         }
 
-        [HttpGet("{id}")]
-        public ActionResult<Produs> GetProdusById(int id)
+        [HttpGet]
+        [Route("{produsId}/get-details")]
+        public IActionResult GetProdusById([FromRoute] int produsId)
         {
-            var produs = _produsService.GetProdusById(id);
+            var produs = _produsService.GetProdusById(produsId);
             if (produs == null)
             {
                 return NotFound();

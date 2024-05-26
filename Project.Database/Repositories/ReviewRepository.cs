@@ -18,7 +18,8 @@ namespace Project.Database.Repositories
 
         public IEnumerable<Review> GetReviewsByProdusId(int produsId)
         {
-            return _context.Reviews.Where(r => r.IdProdus == produsId).ToList();
+
+            return _context.Reviews.Where(r => r.IdProdus == produsId);
         }
         public Review GetReviewById(int id)
         {
@@ -32,9 +33,15 @@ namespace Project.Database.Repositories
             _context.SaveChanges();
         }
 
-        public void UpdateReview(Review review)
+        public void UpdateReview(Review review, UpdateReviewRequest request)
         {
-            _context.Entry(review).State = EntityState.Modified;
+            review.Titlu = request.Titlu;
+            review.Descriere = request.Descriere;
+            review.Nota = request.Nota;
+
+            if (_context.Entry(review).State == EntityState.Modified)
+                review.DateUpdated = DateTime.UtcNow;
+
             _context.SaveChanges();
         }
 

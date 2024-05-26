@@ -17,37 +17,39 @@ namespace LabProject.Api.Controllers
         {
             _reviewService = reviewService;
         }
-
-        [HttpGet("produs/{produsId}")]
-        public ActionResult<IEnumerable<GetReviewResponse>> GetReviewsByProdusId(int produsId)
+        [HttpGet("produs/{produsId}/reviews")]
+        public IActionResult GetReviewsByProdusId([FromRoute] int produsId)
         {
             var reviews = _reviewService.GetReviewsByProdusId(produsId);
             return Ok(reviews);
         }
 
         [HttpPost]
-        public ActionResult AddReview(AddReviewRequest addReviewRequest)
+        [Route("add")]
+        public IActionResult AddReview([FromBody] AddReviewRequest addReviewRequest)
         {
             _reviewService.AddReview(addReviewRequest);
-            return Ok();
+            return Ok("Review has been successfully created");
         }
 
-        [HttpPut("{id}")]
-        public ActionResult UpdateReview(int id, UpdateReviewRequest updateReviewRequest)
+        [HttpPut]
+        [Route("{reviewId}/edit-task")]
+        public IActionResult UpdateReview([FromRoute]int id,[FromBody] UpdateReviewRequest updateReviewRequest)
         {
             if (id != updateReviewRequest.Id)
             {
                 return BadRequest();
             }
 
-            _reviewService.UpdateReview(updateReviewRequest);
+            _reviewService.UpdateReview(id,updateReviewRequest);
             return Ok();
         }
 
-        [HttpDelete("{id}")]
-        public ActionResult DeleteReview(int id)
+        [HttpDelete]
+        [Route("delete-review")]
+        public IActionResult DeleteReview([FromQuery] int reviewId)
         {
-            var deleteReviewRequest = new DeleteReviewRequest { Id = id };
+            var deleteReviewRequest = new DeleteReviewRequest { Id = reviewId };
             _reviewService.DeleteReview(deleteReviewRequest);
             return Ok();
         }

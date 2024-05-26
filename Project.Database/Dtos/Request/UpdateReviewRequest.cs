@@ -11,5 +11,6 @@ namespace Project.Database.Dtos.Request
         public int Id { get; set; } // Id-ul review-ului care va fi actualizat
         public string Titlu { get; set; }
         public string Descriere { get; set; }
+        public int Nota { get; set; }
     }
 }
