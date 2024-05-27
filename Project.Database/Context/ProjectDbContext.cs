@@ -9,6 +9,8 @@ namespace Project.Database.Context
     {
         public DbSet<Produs> Produse { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

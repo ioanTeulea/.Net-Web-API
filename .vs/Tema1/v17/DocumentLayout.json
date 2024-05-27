@@ -1,7 +1,104 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\tema1\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|c:\\users\\user\\facultate\\an2-sem ii\\optional\\product-and-review-api2\\tema1\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\tema1\\controllers\\produscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\controllers\\produscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.core\\servicies\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\servicies\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.core\\servicies\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\servicies\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|c:\\users\\user\\facultate\\an2-sem ii\\optional\\product-and-review-api2\\tema1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|c:\\users\\user\\facultate\\an2-sem ii\\optional\\product-and-review-api2\\project.core\\servicies\\produsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\servicies\\produsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\repositories\\produsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\repositories\\produsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\dtos\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\dtos\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\context\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\context\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\tema1\\startupconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\startupconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\tema1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|c:\\users\\user\\facultate\\an2-sem ii\\optional\\product-and-review-api2\\tema1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|c:\\users\\user\\facultate\\an2-sem ii\\optional\\product-and-review-api2\\tema1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0ECF9592-2AF9-4DC4-A6C8-759074EDCCEC}|Tema1\\Project.Api.csproj|solutionrelative:tema1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|c:\\users\\user\\facultate\\an2-sem ii\\optional\\product-and-review-api2\\project.database\\dtos\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\dtos\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\dtos\\response\\getreviewsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\dtos\\response\\getreviewsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\dtos\\response\\getreviewresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\dtos\\response\\getreviewresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.core\\mapping\\reviewmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C13A811F-4B2C-40FB-B5A6-14575CB7548A}|Project.Core\\Project.Core.csproj|solutionrelative:project.core\\mapping\\reviewmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\project.database\\dtos\\request\\addreviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F7E202B-563A-4794-A6FA-54F43AC33CC4}|Project.Database\\Project.Database.csproj|solutionrelative:project.database\\dtos\\request\\addreviewrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +115,314 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProdusService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Servicies\\ProdusService.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Servicies\\ProdusService.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Servicies\\ProdusService.cs",
+              "RelativeToolTip": "Project.Core\\Servicies\\ProdusService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T16:55:48.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\appsettings.json",
+              "RelativeDocumentMoniker": "Tema1\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\appsettings.json",
+              "RelativeToolTip": "Tema1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T15:55:34.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Tema1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\appsettings.Development.json",
+              "RelativeToolTip": "Tema1\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T15:55:31.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Dtos\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "Project.Database\\Dtos\\Request\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:46:00.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Tema1\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Tema1\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:41:10.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Dtos\\Request\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "Project.Database\\Dtos\\Request\\RegisterRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:17:02.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Servicies\\UsersService.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Servicies\\UsersService.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Servicies\\UsersService.cs",
+              "RelativeToolTip": "Project.Core\\Servicies\\UsersService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAewDkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:14:02.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Context\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Context\\ProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Context\\ProjectDbContext.cs",
+              "RelativeToolTip": "Project.Database\\Context\\ProjectDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:12:28.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Project.Database\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:11:25.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProdusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\ProdusRepository.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Repositories\\ProdusRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\ProdusRepository.cs",
+              "RelativeToolTip": "Project.Database\\Repositories\\ProdusRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:11:23.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "Project.Database\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA8wCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:11:06.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Servicies\\AuthService.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Servicies\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Servicies\\AuthService.cs",
+              "RelativeToolTip": "Project.Core\\Servicies\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:09:40.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Entities\\Role.cs",
+              "RelativeToolTip": "Project.Database\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:58:30.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Entities\\User.cs",
+              "RelativeToolTip": "Project.Database\\Entities\\User.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAhwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:55:57.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Tema1\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Tema1\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:43:06.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Program.cs",
+              "RelativeDocumentMoniker": "Tema1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Program.cs",
+              "RelativeToolTip": "Tema1\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:29:57.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StartupConfig.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\StartupConfig.cs",
+              "RelativeDocumentMoniker": "Tema1\\StartupConfig.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\StartupConfig.cs",
+              "RelativeToolTip": "Tema1\\StartupConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T12:25:48.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetReviewResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Response\\GetReviewResponse.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Dtos\\Response\\GetReviewResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Response\\GetReviewResponse.cs",
+              "RelativeToolTip": "Project.Database\\Dtos\\Response\\GetReviewResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:52:02.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetReviewsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Response\\GetReviewsResponse.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Dtos\\Response\\GetReviewsResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Response\\GetReviewsResponse.cs",
+              "RelativeToolTip": "Project.Database\\Dtos\\Response\\GetReviewsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:51:59.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "Project.Database\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAjwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:47:51.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdusController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\ProdusController.cs",
+              "RelativeDocumentMoniker": "Tema1\\Controllers\\ProdusController.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\ProdusController.cs",
+              "RelativeToolTip": "Tema1\\Controllers\\ProdusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:27:26.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReviewMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Mapping\\ReviewMappingExtensions.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Mapping\\ReviewMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Mapping\\ReviewMappingExtensions.cs",
+              "RelativeToolTip": "Project.Core\\Mapping\\ReviewMappingExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:25:12.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddReviewRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Request\\AddReviewRequest.cs",
+              "RelativeDocumentMoniker": "Project.Database\\Dtos\\Request\\AddReviewRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Dtos\\Request\\AddReviewRequest.cs",
+              "RelativeToolTip": "Project.Database\\Dtos\\Request\\AddReviewRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:24:11.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Tema1\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Tema1\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:15:21.893Z",
+              "EditorCaption": ""
             }
           ]
         }
