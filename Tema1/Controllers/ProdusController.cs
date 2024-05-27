@@ -3,12 +3,15 @@ using Project.Database.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Project.Database.Dtos.Request;
+using Project.Api.Controllers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LabProject.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProdusController : ControllerBase
+    [Authorize]
+    public class ProdusController : BaseController
     {
         private readonly ProdusService _produsService;
 
@@ -27,6 +30,7 @@ namespace LabProject.Api.Controllers
 
         [HttpGet]
         [Route("{produsId}/get-details")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetProdusById([FromRoute] int produsId)
         {
             var produs = _produsService.GetProdusById(produsId);

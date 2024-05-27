@@ -4,12 +4,15 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Project.Database.Dtos.Request;
 using Project.Database.Dtos.Response;
+using Project.Api.Controllers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LabProject.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ReviewController : ControllerBase
+    [Authorize]
+    public class ReviewController : BaseController
     {
         private readonly ReviewService _reviewService;
 
@@ -26,6 +29,7 @@ namespace LabProject.Api.Controllers
 
         [HttpPost]
         [Route("add")]
+        [Authorize(Roles = "User")]
         public IActionResult AddReview([FromBody] AddReviewRequest addReviewRequest)
         {
             _reviewService.AddReview(addReviewRequest);
@@ -34,6 +38,7 @@ namespace LabProject.Api.Controllers
 
         [HttpPut]
         [Route("{reviewId}/edit-review")]
+        [Authorize(Roles = "User")]
         public IActionResult UpdateReview([FromRoute]int reviewId,[FromBody] UpdateReviewRequest updateReviewRequest)
         {
             if (reviewId != updateReviewRequest.Id)
@@ -47,6 +52,7 @@ namespace LabProject.Api.Controllers
 
         [HttpDelete]
         [Route("delete-review")]
+        [Authorize(Roles = "User")]
         public IActionResult DeleteReview([FromQuery] int reviewId)
         {
             var deleteReviewRequest = new DeleteReviewRequest { Id = reviewId };

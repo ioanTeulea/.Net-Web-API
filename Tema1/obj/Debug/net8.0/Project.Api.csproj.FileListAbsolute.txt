@@ -279,3 +279,4 @@ C:\Users\User\Facultate\AN2-Sem II\Optional\Product-and-Review-API2\Tema1\obj\De
 C:\Users\User\Facultate\AN2-Sem II\Optional\Product-and-Review-API2\Tema1\obj\Debug\net8.0\Project.Api.pdb
 C:\Users\User\Facultate\AN2-Sem II\Optional\Product-and-Review-API2\Tema1\obj\Debug\net8.0\Project.Api.genruntimeconfig.cache
 C:\Users\User\Facultate\AN2-Sem II\Optional\Product-and-Review-API2\Tema1\obj\Debug\net8.0\ref\Project.Api.dll
+C:\Users\User\Facultate\AN2-Sem II\Optional\Product-and-Review-API2\Tema1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
