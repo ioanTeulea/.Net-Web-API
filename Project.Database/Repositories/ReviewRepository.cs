@@ -50,7 +50,7 @@ namespace Project.Database.Repositories
             var review = _context.Reviews.Find(id);
             if (review != null)
             {
-                _context.Reviews.Remove(review);
+                review.DateDeleted = DateTime.UtcNow;
                 _context.SaveChanges();
             }
         }

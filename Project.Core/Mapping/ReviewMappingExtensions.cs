@@ -18,6 +18,8 @@ namespace Project.Core.Mapping
             {
                 Titlu = request.Titlu,
                 Descriere = request.Descriere,
+                IdProdus=request.ProdusId,
+                Nota=request.Nota,
                 DateCreated = DateTime.UtcNow,
                 DateUpdated = DateTime.UtcNow
             };

@@ -33,15 +33,15 @@ namespace LabProject.Api.Controllers
         }
 
         [HttpPut]
-        [Route("{reviewId}/edit-task")]
-        public IActionResult UpdateReview([FromRoute]int id,[FromBody] UpdateReviewRequest updateReviewRequest)
+        [Route("{reviewId}/edit-review")]
+        public IActionResult UpdateReview([FromRoute]int reviewId,[FromBody] UpdateReviewRequest updateReviewRequest)
         {
-            if (id != updateReviewRequest.Id)
+            if (reviewId != updateReviewRequest.Id)
             {
                 return BadRequest();
             }
 
-            _reviewService.UpdateReview(id,updateReviewRequest);
+            _reviewService.UpdateReview(reviewId,updateReviewRequest);
             return Ok();
         }
 
@@ -51,7 +51,7 @@ namespace LabProject.Api.Controllers
         {
             var deleteReviewRequest = new DeleteReviewRequest { Id = reviewId };
             _reviewService.DeleteReview(deleteReviewRequest);
-            return Ok();
+            return Ok("Review has been successfully deleted");
         }
     }
 }

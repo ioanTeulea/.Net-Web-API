@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Project.Database.csproj",
       "projectName": "Project.Database",
-      "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj",
+      "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Project.Database.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\obj\\",
+      "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
