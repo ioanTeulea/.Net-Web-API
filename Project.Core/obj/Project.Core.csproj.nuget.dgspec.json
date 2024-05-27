@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Core\\Project.Core.csproj": {}
+    "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Core\\Project.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Core\\Project.Core.csproj": {
+    "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Core\\Project.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Core\\Project.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Core\\Project.Core.csproj",
         "projectName": "Project.Core",
-        "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Core\\Project.Core.csproj",
+        "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Core\\Project.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Core\\obj\\",
+        "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Database\\Project.Database.csproj": {
-                "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Database\\Project.Database.csproj"
+              "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj": {
+                "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Database\\Project.Database.csproj": {
+    "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Database\\Project.Database.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj",
         "projectName": "Project.Database",
-        "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Database\\Project.Database.csproj",
+        "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\Project.Database.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1\\Project.Database\\obj\\",
+        "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Tema1Backup\\Project.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
