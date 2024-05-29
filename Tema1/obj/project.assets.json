@@ -4291,11 +4291,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Project.Api.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Tema1\\Project.Api.csproj",
       "projectName": "Project.Api",
-      "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\Project.Api.csproj",
+      "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Tema1\\Project.Api.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Tema1\\obj\\",
+      "outputPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Tema1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4312,11 +4312,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Project.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Core\\Project.Core.csproj"
+            "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Project.Core\\Project.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Project.Core\\Project.Core.csproj"
             },
-            "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Project.Database.csproj": {
-              "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API2\\Project.Database\\Project.Database.csproj"
+            "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Project.Database\\Project.Database.csproj": {
+              "projectPath": "C:\\Users\\User\\Facultate\\AN2-Sem II\\Optional\\Product-and-Review-API(Original)\\Project.Database\\Project.Database.csproj"
             }
           }
         }
