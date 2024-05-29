@@ -1,4 +1,4 @@
-# Project Name: LabProject API
+# Project Name: .NET WEB API
 
 ## Description:
 This project is a Web API for managing a product catalog and user reviews, developed in C# using .NET Web API. It follows best practices of RESTful API development to ensure scalability and maintainability.
